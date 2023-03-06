@@ -1,7 +1,7 @@
 //import dependencies
 const { MinKey } = require('mongodb');
 const { Schema, model, Types } = require('mongoose');
-const user = require('./User');
+const User = require('./User');
 
 //create rwaction subdocument schema
 const ReactionSchema = new Schema(
